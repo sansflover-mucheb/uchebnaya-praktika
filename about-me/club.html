@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Клуб</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Обо мне</a></li>
+                <li><a href="hobby.html">Хобби</a></li>
+                <li><a href="college.html">Колледж</a></li>
+                <li><a href="schedule.html">Расписание</a></li>
+                <li><a href="application.html">Заявка</a></li>
+                <li><a href="club.html">Клуб</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Клуб программистов</h1>
+        <section>
+            <h2>О клубе</h2>
+            <p>Наш клуб объединяет студентов, увлеченных информационными технологиями. Мы собираемся каждую неделю, чтобы обсуждать новые технологии и работать над совместными проектами.</p>
+        </section>
+        <article>
+            <h2>Новость клуба</h2>
+            <p>На прошлой неделе наш клуб занял первое место на региональной олимпиаде по веб-разработке. Команда представила проект умного расписания для студентов.</p>
+            <p>Поздравляем участников и желаем новых побед!</p>
+        </article>
+        <section>
+            <h2>Расписание встреч</h2>
+            <table>
+                <caption>График собраний клуба</caption>
+                <thead>
+                    <tr>
+                        <th>День</th>
+                        <th>Тема</th>
+                        <th>Кабинет</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Среда</td>
+                        <td>Введение в JavaScript</td>
+                        <td>Аудитория 402</td>
+                    </tr>
+                    <tr>
+                        <td>Пятница</td>
+                        <td>Разбор HTML семантики</td>
+                        <td>Аудитория 405</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Вступить в клуб</h2>
+            <p><em>Внимание: данные формы вымышленные и не сохраняются.</em></p>
+            <form action="club.html" method="GET">
+                <p>
+                    <label for="club-name">Ваше имя:</label>
+                    <input type="text" id="club-name" name="student_name" required>
+                </p>
+                <p>
+                    <label for="direction">Направление:</label>
+                    <select id="direction" name="direction" required>
+                        <option value="">-- Выберите направление --</option>
+                        <option value="frontend">Frontend разработка</option>
+                        <option value="backend">Backend разработка</option>
+                    </select>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" name="agree" required value="yes">
+                        Согласен с правилами клуба
+                    </label>
+                </p>
+                <button type="submit">Подать заявку</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Автор: Фамилия Имя. Учебная практика УП.09.</p>
+    </footer>
+</body>
+</html>

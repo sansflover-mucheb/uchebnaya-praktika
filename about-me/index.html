@@ -1,47 +1,80 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Обо мне-Цветков Максим</title>
-</head>
-<body>
-   <nav>
-    <ul>
-        <li><a href="index.html">Обо мне</a></li>
-        <li><a href="hobby.html">Мои увличения</a></li>
-        <li><a href="college.html">Мой колледж</a></li>
-        <li><a href="shedule.html">Расписание</a></li>
-        <li><a href="application.html">Заявка</a></li>
-    </ul>
-    </nav>
-    <h1 id="top">Цветков Максим</h1>
-    <p>Студент группы ИС-1-25, Чебоксарский экономико-технологический колледж</p>
-    <img src="img/me.jpg" alt="Моя фотка" width="300">
-    <ul>
+  </head>
+  <body>
+    <header>
+      <p>Учебный сайт студента ИС-1-25</p>
+      <nav aria-label="Главное меню">
+        <ul>
+          <li><a href="index.html">Обо мне</a></li>
+          <li><a href="hobby.html">Мои увличения</a></li>
+          <li><a href="college.html">Мой колледж</a></li>
+          <li><a href="shedule.html">Расписание</a></li>
+          <li><a href="application.html">Заявка</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 id="top">Цветков Максим</h1>
+      <p>
+        Студент группы ИС-1-25, Чебоксарский экономико-технологический колледж
+      </p>
+      <img src="img/me.jpg" alt="Моя фотка" width="300">
+      <ul>
         <li><a href="#about">Обо мне</a></li>
         <li><a href="#study">Моя учеба</a></li>
         <li><a href="#plans">Мои планы</a></li>
-    </ul>
-    <hr>
-    <h2 id="#about">Обо <strong>мне</strong></h2>
-    <p>Мне интересно разбираться в разных схемах кодах. Люблю игры, фильмы. Считаю себя <em>гиком</em>.</p>
-    <h2 id="#study">Моя учеба</h2>
-    <p>Мы изучаем как устрооины сайты и это нравиться</p>
-    <h2 id="#plans">Мои планы</h2>
-    <p>Хочу научиться всему в этом мире, а на практике научиться писать код и читать его.</p>
-    <p>Город Чебоксары<br>группа: ИС-1-25</p>
-    <h2>Любимая цитата</h2>
-    <blickquote>
+      </ul>
+      <hr>
+      <section aria-labelledby="about">
+        <h2 id="#about">Обо <strong>мне</strong></h2>
+        <p>
+          Мне интересно разбираться в разных схемах кодах. Люблю игры, фильмы.
+          Считаю себя <em>гиком</em>.
+        </p>
+      </section>
+      <section aria-labelledby="study">
+        <h2 id="#study">Моя учеба</h2>
+        <p>Мы изучаем как устрооины сайты и это нравиться</p>
+      </section>
+      <h2 id="#plans">Мои планы</h2>
+      <p>
+        Хочу научиться всему в этом мире, а на практике научиться писать код и
+        читать его.
+      </p>
+      <p>Город Чебоксары<br>группа: ИС-1-25</p>
+      <h2>Любимая цитата</h2>
+      <blockquote>
         <p>А любовь стоит того, чтобы ждать</p>
-    </blickquote>
-    <p>Виктор Робертович Цой </p>
-<h1>Полезные ссылки</h1>
-<ul>
-    <li><a href="https://developer.mozilla.org/ru/docs/Web/HTML" target="_blank"
-        rel="noopener noreferrer">Справочник MDN по HTML</a></li>
-    <li><a href="https://chetk.info/" target="_blank" rel="noopener noreferrer">Сайт колледжа</a></li>
-</ul>    
-<p><a href="#top">Наверх</a></p>
-</body>
+      </blockquote>
+      <p>Виктор Робертович Цой</p>
+      <h1>Полезные ссылки</h1>
+      <ul>
+        <li>
+          <a
+            href="https://developer.mozilla.org/ru/docs/Web/HTML"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Справочник MDN по HTML</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://chetk.info/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Сайт колледжа</a
+          >
+        </li>
+      </ul>
+      <p><a href="#top">Наверх</a></p>
+    </main>
+    <footer>
+      <p>Автор: Цветков Максим. Учебная практика УП.09.</p>
+    </footer>
+  </body>
 </html>
