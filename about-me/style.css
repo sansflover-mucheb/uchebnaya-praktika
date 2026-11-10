@@ -1,0 +1,15 @@
+
+body {color: #243142;background-color: #f5f7fa;font-family: Arial, sans-serif}
+p {color: #333333}
+h1, h2 {color: #17365d}
+#top {letter-spacing: 0.03em}
+.site-note {font-style: italic}
+.main-nav a {color: #0b5cab;text-decoration: none}
+.main-nav a:hover {color: #8a2c2c}
+.main-nav a:focus {outline: 2px solid #8a2c2c;outline-offset: 2px}
+.external-link {color: #c0392b; text-decoration: underline}
+.page-footer p {color: #243142}
+.club-news {color: #004080}
+.club-note {color: #666666}
+
+

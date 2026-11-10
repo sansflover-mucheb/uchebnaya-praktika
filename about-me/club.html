@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Клуб</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="main-nav" aria-label="Главное меню">
             <ul>
                 <li><a href="index.html">Обо мне</a></li>
                 <li><a href="hobby.html">Хобби</a></li>
@@ -24,7 +25,7 @@
             <h2>О клубе</h2>
             <p>Наш клуб объединяет студентов, увлеченных информационными технологиями. Мы собираемся каждую неделю, чтобы обсуждать новые технологии и работать над совместными проектами.</p>
         </section>
-        <article>
+        <article class="club-news">
             <h2>Новость клуба</h2>
             <p>На прошлой неделе наш клуб занял первое место на региональной олимпиаде по веб-разработке. Команда представила проект умного расписания для студентов.</p>
             <p>Поздравляем участников и желаем новых побед!</p>
@@ -56,7 +57,7 @@
         </section>
         <section>
             <h2>Вступить в клуб</h2>
-            <p><em>Внимание: данные формы вымышленные и не сохраняются.</em></p>
+            <p class="club-note"><em>Внимание: данные формы вымышленные и не сохраняются.</em></p>
             <form action="club.html" method="GET">
                 <p>
                     <label for="club-name">Ваше имя:</label>
@@ -80,7 +81,7 @@
             </form>
         </section>
     </main>
-    <footer>
+    <footer class="page-footer">
         <p>Автор: Фамилия Имя. Учебная практика УП.09.</p>
     </footer>
 </body>
