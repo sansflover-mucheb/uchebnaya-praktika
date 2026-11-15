@@ -10,35 +10,33 @@
     <header class="site-header">
         <nav class="main-nav" aria-label="Главное меню">
             <ul>
+                
                 <li><a href="index.html">Обо мне</a></li>
                 <li><a href="hobby.html">Мои увличения</a></li>
-                <li><a href="college.html">Колледж</a></li>
+                <li><a href="college.html">Мой колледж</a></li>
                 <li><a href="shedule.html">Расписание</a></li>
                 <li><a href="application.html">Заявка</a></li>
                 <li><a href="club.html">Клуб</a></li>
                 <li><a href="styles-check.html">Проверка CSS</a></li>
                 <li><a href="flex-lab.html">Flexbox</a></li>
-                <li><a href="grid-lab.html">CSS Grid</a></li>
+                <li><a href="grid-lab.html" aria-current="page">CSS Grid</a></li>
                 <li><a href="catalog.html">Каталог</a></li>
-                <li><a href="position-lab.html">Позиционирование</a></li>
-                <li><a href="redponsite-lab.html" aria-current="page">Адаптивность</a></li>
-                <li><a href="form-stu
-                    le-lab.html" aria-current="page">Форма</a></li>
+                <li><a href="position-lab.html" aria-current="page">Позиционирование</a></li>
+                <li><a href="form-stule-lab.html" aria-current="page">Форма</a></li>
+                <li><a href="responsive-lab.html" aria-current="page">Адаптивность</a></li>
             </ul>
         </nav>
     </header>
-
     <main class="page-container">
         <h1>Лаборатория адаптивности</h1>
         <section class="responsive-hero">
             <div>
                 <h2>Сайт для любого экрана</h2>
-                <p>Размер окна меняется, а содержание остаётся удобным.</p>
-                <a class="button" href="#features">Посмотреть возможности</a>
+                <p>Размер окна меняется, а содержание остаётся удобным и читабельным.</p>
+                <a class="button-link" href="#features">Посмотреть возможности</a>
             </div>
             <img src="img/study.jpg" alt="Рабочее место студента">
         </section>
-
         <section id="features">
             <h2>Возможности</h2>
             <div class="feature-grid">
@@ -56,28 +54,29 @@
                 </article>
             </div>
         </section>
-        <section class="adaptive-stats">
+        <section>
             <h2>Статистика</h2>
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <span class="stat-number">375</span>
-                    <span class="stat-label">минимальная ширина экрана</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">3</span>
-                    <span class="stat-label">контрольные точки</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">1</span>
-                    <span class="stat-label">колонка на телефоне</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">70rem</span>
-                    <span class="stat-label">максимальная ширина контента</span>
-                </div>
+            <div class="adaptive-stats">
+                <article>
+                    <h3>Скорость</h3>
+                    <p>100%</p>
+                </article>
+                <article>
+                    <h3>Доступность</h3>
+                    <p>Высокая</p>
+                </article>
+                <article>
+                    <h3>Адаптивность</h3>
+                    <p>Полная</p>
+                </article>
+                <article>
+                    <h3>Тестирование</h3>
+                    <p>Этот текст очень длинный, чтобы проверить, как он будет переноситься на узких экранах без горизонтальной прокрутки.</p>
+                </article>
             </div>
         </section>
     </main>
+
     <footer class="page-footer">
         <p>Учебная практика УП.09</p>
     </footer>
