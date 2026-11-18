@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лаборатория DOM</title>
+  <script src="js/dom.js" defer></script>
+</head>
+
+<style>
+    .success {
+      color: green;
+      background-color: #e6ffe6;
+      padding: 10px;
+    }
+  
+    .warning {
+      color: darkred;
+      background-color: #ffe6e6;
+      padding: 10px;
+    }
+  </style>  
+
+<body>
+    <nav aria-label="Главное меню" class="main-nav">
+      <ul>
+            <li><a href="hobby.html">Мои увличения</a></li>
+            <li><a href="college.html">Колледж</a></li>
+            <li><a href="shedule.html">Расписание</a></li>
+            <li><a href="application.html">Заявка</a></li>
+            <li><a href="club.html">Клуб</a></li>
+            <li><a href="styles-check.html">Проверка CSS</a></li>
+            <li><a href="flex-lab.html">Flexbox</a></li>
+            <li><a href="grid-lab.html" aria-current="page">CSS Grid</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="position-lab.html" aria-current="page">Позиционирование</a></li>
+            <li><a href="form-stule-lab.html" aria-current="page">Форма</a></li>
+            <li><a href="responsive-lab.html" aria-current="page">Адаптивность</a></li>
+            <li><a href="project.html" aria-current="page">Проект</a></li>
+            <li><a href="dom-lab.html">Лаборатория DOM</a></li>
+      </ul>  
+  </nav>
+  <h1 id="main-title">Изучаем JavaScript DOM</h1>
+  <p id="message">Это исходный текст.</p>
+
+  <h2 id="main-student">Информация о студенте</h2>
+  <p id="student-name">Имя не указано</p>
+  <p id="student-group">Группа не указана</p>
+  <p id="student-age">Возраст не указан</p>
+  <p id="student-language-programming">Язык програмированния не указан</p>
+
+  <h2>СВОЯ Карточка товара</h2>
+  <div id="product-card">
+    <h3 id="product-name">Ноутбук</h3>
+    <p id="product-price">Цена: 50000 Russian rubles</p>
+  </div>
+
+  <h2>Список предметов</h2>
+  <ul id="subjects">
+    <li>Математика</li>
+    <li>Информатика</li>
+    <li>Физика</li>
+  </ul>
+
+  <p id="status">Статус: ожидает проверки</p>
+</body>
+
+</html>
